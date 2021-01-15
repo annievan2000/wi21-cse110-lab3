@@ -1,0 +1,221 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Lab 2 Assignment</title>
+  <meta name="description" content="Winter 2020 CSE 110 Course">
+  <meta name="author" content="Annie">
+
+  <style>
+    h1 {color:red;}
+    p {color:blue;}
+    .school {
+        background-color:aliceblue;
+        color: green;
+    }
+  </style>
+
+</head>
+
+<body>
+    <header>
+            <h1>Welcome to my HTML Page</h1>
+            <h2>By Annie Van</h2>
+            <h3>Second Lab in CSE 110</h3>
+
+            <nav>
+                <a href="https://www.linkedin.com/in/annie-van-267086171/">LinkedIn</a> |
+                <a href="https://www.instagram.com/annievanz/">Instagram</a> |
+                <a href="https://www.facebook.com/anns1233/">Facebook</a> |
+                <a href="https://twitter.com/annnnievan">Twitter</a>
+              </nav>
+    </header>
+    <main>
+        <section>
+        <div class= "school">
+            <h2>Life @ <span style="color:yellow">UCSD</span></h2>
+            <h3>Internship @ Tableau</h3>
+            <p>I spent last summer leet coding to prepare for interviews. Tableau was my top choice because it was a tech company.</p>p>
+            <aside>
+                <h4>Tableau</h4>
+                <p>Tableau is a data visualization company. They have offices in Seattlea and Palo Alto. Salesforce recently aquired Tableau.</p>
+            </aside>
+
+            <figure>
+                <picture>
+                <img src="tableauoffice.jpg" alt="Tableau" style="width:100%">
+                </picture>
+                <figcaption>Fig.1 - Tableau in Palo Alto.</figcaption>
+            </figure>
+            
+            <hr>
+            <h2> Current Classes </h2>
+            <ul>
+                <li><b>CSE 110</b></li>
+                <li>CSE 140</li>
+                <li>CSE 140L</li>
+                <li>MGT 112</li>
+                <li>MGT 140</li>
+            </ul>
+
+            <hr>
+
+            <h2> Goals this Quarter </h2>
+            <ol>
+                <li><i>Get at least all B's</i></li>
+                <li>Learn more about a professor</li>
+                <li>Help a frien find an job opportunity</li>
+            </ol>
+            
+
+
+        </div>
+
+        </section>
+        <section>
+            <h2>What I like doing for fun</h2>
+            <br>
+            <p>The code <code>cout << "enjoys baking, watching Youtube videos, and traveling";</code> prints out my hobbies in C++.</p>
+            <p>Monica Church is one of my favorite youtubers</p>
+            <p>Guess what my favorite animal is?</p>
+            <audio controls>
+                <source src="horse.ogg" type="audio/ogg">
+                <source src="horse.mp3" type="audio/mpeg">
+              Your browser does not support the audio element but I like horses.
+              </audio>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/gW2080UMMv4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://open.spotify.com/embed/track/7lPN2DXiMsVn7XUKtOW1CS" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <p>This is a cursed video</p>
+            <video width="320" height="240" controls>
+                <source src="WAP .mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video> 
+            <pre>
+                My family~
+                Dad: ( ͡❛ ͜ʖ ͡❛)✌
+                    Mom: ʕ•́ᴥ•̀ʔっ♡
+                        Simon: 👋≧◉ᴥ◉≦
+                                Sarah: (ɔ◔‿◔)ɔ ♥
+                                        Me: (✿◠‿◠) 
+            </pre>
+            <p>Here are my favorite colors in circles:</p>
+            <svg width="100" height="100">
+                <circle cx="50" cy="50" r="40" stroke="black" stroke-width="4" fill="pink" />
+              </svg>
+              <svg width="100" height="100">
+                <circle cx="50" cy="50" r="40" stroke="black" stroke-width="4" fill="blue" />
+              </svg>
+              <svg width="100" height="100">
+                <circle cx="50" cy="50" r="40" stroke="black" stroke-width="4" fill="purple" />
+              </svg>
+
+            <canvas id="myCanvas" width="10" height="58"
+style="border:5px solid #000000;">
+</canvas>
+<canvas id="myCanvas" width="10" height="72"
+style="border:5px solid #000000;">
+</canvas>
+<p>The canvas on the left side is a demonstration of me (4'9) next to someone who is 6 feet which is represented by the figure on the right.</p>
+
+        </section>
+
+      </main>
+    <footer>
+        <p><strong>Good <em>Bye</em> world!!!</strong></p>
+        <form>
+            <p>Leave me a message</p>
+
+            <label for="name">Whats your name?</label><br>
+            <input type="text" id="name" name="name"><br>
+
+            <label for="levi">What color should I knit my scarf?</label>
+            <input type="color" id="levi" name="levi" value="#800080">
+            
+            <fieldset>
+                <legend>For my little:</legend>
+            <label for="places">Choose a place to hangout:</label>
+            <select name="places" id="places">
+              <optgroup label="Outdoors">
+                <option value="picnic">Picnic</option>
+                <option value="beach">Beach</option>
+              </optgroup>
+              <optgroup label="Food">
+                <option value="desserts">Extraordinary Desserts</option>
+                <option value="noodles">Tasty Noodle House</option>
+              </optgroup>
+            </select>
+            <br><br>
+            <label for="hbu">Let me know what you think~~:</label>
+<textarea id="hbu" name="hbu" rows="4" cols="50">
+  What do you want to do :33 if it wasnt listed above.
+  </textarea>
+
+  <label for="free">When are you free:</label>
+
+  <input type="date" id="free" name="hangout-free"
+         value="2020-10-15"
+         min="2018-01-01" max="2018-12-31">
+
+         <label for="email">Whats your email:</label>
+
+         <input type="email" id="email"
+                pattern=".+@gmail.com" size="30">
+
+    <label for="pic">Send pics of your pet:</label>
+
+<input type="file"
+       id="pic" name="pic"
+       accept="image/png, image/jpeg">
+
+       <label for="hrs">How many hours are you free a day?:</label>
+
+<input type="number" id="hrs" name="hrs"
+       min="1" max="100">
+
+       <label for="phone">What's your phone number?:</label>
+
+       <input type="tel" id="phone" name="phone"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+              required>
+              <label for="meetup">What time can we meet up?:</label>
+
+              <input type="time" id="meetup" name="meetup"
+                     min="09:00" max="18:00" required>
+
+                     <label for="url">IG?</label>
+
+                     <input type="url" name="url" id="url"
+                            placeholder="https://www.instagram.com/"
+                            pattern="https://.*" size="30"
+                            required>
+                     
+  <p>Coffee or tea?:</p>
+
+<div>
+  <input type="checkbox" id="coffee" name="coffee"
+         checked>
+  <label for="coffee">Coffee</label>
+</div>
+<div>
+    <input type="checkbox" id="tea" name="tea">
+    <label for="tea">Tea</label>
+  </div>
+            <input type="submit" value="See u tomo :3">
+            </fieldset>
+
+
+            <label for="fun">Was this form fun?</label>
+  <input list="fun" name="fun" id="fun">
+  <datalist id="funsies">
+    <option value="Yes">
+    <option value="No">
+  </datalist>
+  <input type="submit">
+          </form>
+        
+      </footer>
+  
+</body>
+</html>
