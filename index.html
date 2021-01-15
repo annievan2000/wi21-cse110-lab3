@@ -16,13 +16,6 @@
         color: green;
     }
   </style>
-  <script>
-    function sup() {
-      var mytemplate = document.getElementsByTagName("template")[0];
-      var show = mytemplate.content.cloneNode(true);
-      document.body.appendChild(show);
-    }
-    </script>
 
 </head>
 
@@ -258,9 +251,17 @@ style="border:5px solid #000000;">
 
   <button type="button" onclick="sup()">Click Me for your last surprise cus u done!</button>
   <template>
-    <h2>HI ITS TIME TO SLEEP NOW U DID GOOD :D</h2>
-</template> 
+    <h2>Flower</h2>
     
+  </template>
+  
+  <script>
+  function sup() {
+    var temp = document.getElementsByTagName("template")[0];
+    var clon = temp.content.cloneNode(true);
+    document.body.appendChild(clon);
+  }
+  </script>
     
            
 </form>
