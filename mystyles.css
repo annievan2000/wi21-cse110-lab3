@@ -1,5 +1,6 @@
 body {
   background-color: lightgray;
+  display: block;
 }
 
 * {
@@ -36,6 +37,7 @@ color: rgb(106,90,205)
 
 fieldset > legend {
 font-weight: bold;
+font-style: oblique;
 }
 
 .school + p {
@@ -62,8 +64,4 @@ border: 15px solid lightseagreen;
   padding-left: 30px;
   padding-right: 30px;
 
-}
-
-.p.datavis {
-  font-style: oblique;
 }
