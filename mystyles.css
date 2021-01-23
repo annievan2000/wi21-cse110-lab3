@@ -1,3 +1,43 @@
 body {
-    background-color: lightgreen;
-  }
+  background-color: lightgreen;
+}
+
+* {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+background-color: white
+}
+
+a[target] {
+letter-spacing: 2px;
+}
+
+.myhover {
+background-color: lavender;
+}
+
+p.intro {
+color: blue;
+}
+
+td, th {
+color: white
+}
+
+div label {
+color: purple
+}
+
+fieldset > legend {
+font-weight: bold;
+}
+
+div + p {
+font-weight: bold;
+}
+
+h2 ~ ul {
+color: blue;
+}
