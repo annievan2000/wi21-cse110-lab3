@@ -80,8 +80,8 @@ border: 15px solid lightseagreen;
 .flex-container {
   display: flex;
   flex-flow: row wrap;
-  flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
+  list-style:none;
 
 
 }
@@ -100,8 +100,9 @@ border: 15px solid lightseagreen;
   grid-template-columns: auto auto auto;
   background-color: palevioletred;
   padding: 10px;
-  justify-self: stretch;
+  justify-self: center;
   align-self: center;
+  align-content: center;
 
 }
 
@@ -111,6 +112,5 @@ border: 15px solid lightseagreen;
   padding: 10px;
   font-size: 12px;
   text-align: center;
-  align-content: center;
 
 }
