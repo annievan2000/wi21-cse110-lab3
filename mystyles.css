@@ -38,7 +38,7 @@ fieldset > legend {
 font-weight: bold;
 }
 
-div + p {
+.school + p {
 color: hsl(3, 100%, 50%);
 }
 
@@ -52,7 +52,7 @@ border: 15px solid lightseagreen;
   background-color: rgba(255, 48, 71, 0.3);
   border-color:black;
   border-width: 2px;
-  border-radius 25% 10%;
+  border-radius: 25% 10%;
   margin-top: 100px;
   margin-bottom: 100px;
   margin-left: 100px;
