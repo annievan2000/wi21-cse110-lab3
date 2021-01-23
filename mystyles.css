@@ -1,3 +1,4 @@
+/* This is the CSS for my Github Page */
 body {
   background-color: lightgray;
   display: block;
@@ -12,7 +13,8 @@ body {
     background-color: lightyellow;
   }
   .myhover:hover {
-    background-color: #fccb9e;
+    background-color: 
+      fccb9e;
     font-size: 10mm;
     }
 }
@@ -60,10 +62,11 @@ color: blue;
 border: 15px solid lightseagreen;
 }
 
+/* The segment after #school section */
 .second {
   border-style: solid;
-  background-color: rgb(208, 233, 219);
-  border-color:lightseagreen;
+  background-color: (208, 233, 219);
+  border-color: rgba(147, 255, 235, 0.63);
   border-width: 2px;
   border-radius: 0;
   margin-top: 30px;
